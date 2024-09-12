@@ -6,6 +6,7 @@ int main()
     scanf("%f",&terms);
     while(terms>0)
     {
+        pro=1;
         a=n;
         while(a>=1)
         {
