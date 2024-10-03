@@ -27,11 +27,12 @@ int main()
             }
         }
         
-        
-        extra=array[i];
-        array[i]=min;
-        array[index]=extra;
-        
+        if(min!=array[i])
+        {
+            extra=array[i];
+            array[i]=min;
+            array[index]=extra;
+        }
     }
     printf("\nselection sorted array\n");
     for( i=0;i<n;i++)
